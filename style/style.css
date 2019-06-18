@@ -4,20 +4,16 @@
 header {
   background-color: #ffffff;
 }
-.header__brand {
-  color: #000000;
-  line-height: 72px;
-  font-size: 38px;
-}
+
 .header__block {
   display: flex;
   flex-direction: column;
   padding: 61.5px 0;
+  font-family: "Open Sans";
 }
 .header__brand {
   text-transform: uppercase;
   color: #000000;
-  font-weight: bold;
   font-size: 38px;
   line-height: 72px;
 }
@@ -26,11 +22,13 @@ header {
   font-weight: 300;
   font-size: 30px;
   line-height: 54px;
+  border-radius: 20px;
 }
 .header__link:hover {
   color: #d12222;
   transition-property: color;
   transition-duration: 0.15s;
+  text-decoration: none;
 }
 .header__link_italic {
   font-style: italic;
@@ -45,6 +43,7 @@ header {
 }
 .infoBlock__block {
   padding: 46px 0;
+  font-family: "Open Sans";
 }
 .infoBlock__text {
   font-weight: 300;
@@ -53,7 +52,6 @@ header {
   color: #ffffff;
 }
 .infoBlock__title {
-  font-weight: bold;
   text-transform: uppercase;
   font-size: 38px;
   line-height: 72px;
@@ -73,6 +71,7 @@ header {
 .contacts__block {
   display: flex;
   flex-direction: column;
+  font-family: "Open Sans";
   text-align: center;
   padding: 17.5px 0;
 }
@@ -83,9 +82,8 @@ header {
   color: #ffffff;
 }
 .contacts__title {
-  color: #ffffff;
   text-transform: uppercase;
-  font-weight: bold;
+  color: #ffffff;
   font-size: 38px;
   line-height: 72px;
 }
@@ -100,6 +98,7 @@ header {
   color: #c4bdc0;
   transition-property: color;
   transition-duration: 0.15s;
+  text-decoration: none;
 }
 
 /*FOOTER*/
@@ -109,6 +108,7 @@ footer {
 }
 .footer__block {
   padding: 17.5px 0;
+  font-family: "Open Sans";
 }
 .footer__text {
   font-weight: 300;

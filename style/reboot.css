@@ -1,3 +1,4 @@
+@import url("../fonts/openSans.css");
 body {
   margin: 0;
   font-family: "Open Sans";
@@ -6,9 +7,11 @@ body {
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 20px;
+  /* box-sizing: border-box; */
   /*в макете нет отступов у container, но я на всякий случай сделаю*/
 }
-ol {
+ol,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
