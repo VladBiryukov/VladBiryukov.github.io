@@ -12,28 +12,27 @@
 
 <body>
   <header class="header">
+  <div class="container">
+    <div class="block header__block">
+     <a href=""> <div class="header__logo"></div> 
+      <nav class="navigation">
+  <a class="navigation__link" href="index.html">Главная</a>
+  <a class="navigation__link" href="#">Мой блог</a>
+  <a class="navigation__link" href="about-me.html">Подробнее обо мне</a>
+</nav>  
+    </div> 
+  </div>
+</header>
+  <section class="info-block">
     <div class="container">
-      <div class="block header__block">
-        <a href="">
-          <div class="header__logo"></div>
-          <nav class="header__navigation">
-            <a class="header__link" href="index.html">Главная</a>
-            <a class="header__link" href="about_me.html">Мой блог</a>
-            <a class="header__link" href="#">Подробнее обо мне</a>
-          </nav>
-      </div>
-    </div>
-  </header>
-  <section class="info_block">
-    <div class="container">
-      <div class="info_block__block">
-        <h1 class="info_block__title text_left">обо мне</h1>
-        <div class="info_block__content">
-          <img class="info_block__img_avatar" src="./img/avatar.jpg" alt="avatar"></img>
-          <article class="info_block__article">
-            <p class="info_block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio
+      <article class="info-block__block">
+        <h1 class="info-block__title text_left">обо мне</h1>
+        <div class="info-block__content">
+          <img class="info-block__img_avatar" src="./img/avatar.jpg" alt="avatar"></img>
+          <div class="info-block__article">
+            <p class="info-block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio
               quasi
-              culpa eveniet 
+              culpa eveniet
               assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit tempore ducimus
               omnis deserunt adipisci inventore dicta consectetur, reiciendis fugiat ad! Eum excepturi accusantium
               amet odio corporis? Odio dignissimos repudiandae vero sapiente voluptatum laboriosam fuga quidem quos,
@@ -42,64 +41,64 @@
               voluptas quidem quasi dolorum, repudiandae obcaecati. Veniam voluptatibus dolorum iste molestiae
               repellat officiis quibusdam recusandae sequi cupiditate, sit corrupti! Illo, esse quibusdam?</p>
 
-            <div class="info_block__button"><a class="info_block__link" href="blog.html">Подробнее </a></div>
-          </article>
+            <div class="info-block__button"><a class="info-block__link" href="blog.html">Подробнее </a></div>
+          </div>
         </div>
-      </div>
+      </article>
     </div>
   </section>
   <main>
-    <div class="blog">
+    <div class="blog">  
       <div class="container">
         <div class="blog__block">
           <h1 class="blog__title_main text_center">мой блог</h1>
           <div class="blog__content">
-            <div class="blog__container_flex">
-              <div class="blog__box">
-                <img src="./img/drink.png" class="blog__img_box"></img>
-                <article class="blog__article">
-                  <h2 class="blog__title_box">Сегодня ходили в клуб заря</h2>
-                  <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio quasi
-                    culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit
-                    tempore ducimus omnis deserunt adipisci inventore dicta consectetur...</p>
-                  <div class="blog__content_bottom">
-                    <div class="blog__button"> <a class="blog__link blog__link_news" href="news.html">перейти к
-                        новости</a></div>
-                    <div class="blog__date"> <span class="date">26.06.2019</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="blog__box">
-                <img src="./img/drink.png" class="blog__img_box"></img>
-                <article class="blog__article">
-                  <h2 class="blog__title_box">Сегодня ходили в клуб заря</h2>
-                  <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio quasi
-                    culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit
-                    tempore ducimus omnis deserunt adipisci inventore dicta consectetur...</p>
-                  <div class="blog__content_bottom">
-                    <div class="blog__button"> <a class="blog__link blog__link_news" href="news.html">перейти к
-                        новости</a></div>
-                    <div class="blog__date"> <span class="date">26.06.2019</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="blog__box">
-                <img src="./img/drink.png" class="blog__img_box"></img>
-                <article class="blog__article">
-                  <h2 class="blog__title_box">Сегодня ходили в клуб заря</h2>
-                  <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio quasi
-                    culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit
-                    tempore ducimus omnis deserunt adipisci inventore dicta consectetur...</p>
-                  <div class="blog__content_bottom">
-                    <div class="blog__button"> <a class="blog__link blog__link_news" href="news.html">перейти к
-                        новости</a></div>
-                    <div class="blog__date"> <span class="date">26.06.2019</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
+            <div class="blog__container">
+              <div class="blog-post">
+  <img src="./img/drink.png" class="blog-post__img "></img>
+  <div class="blog-post__content_top">
+    <h2 class="blog-post__title ">Сегодня ходили в клуб заря</h2>
+    <p class="blog-post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio quasi
+      culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit
+      tempore ducimus omnis deserunt adipisci inventore dicta consectetur...</p>
+    <div class="blog-post__content_bottom">
+      <div class="blog-post__button"> <a class="blog-post__link" href="news.html">перейти к
+          новости</a></div>
+      <div class="blog-post__date"> <span class="date">26.06.2019</span>
+</div>
+    </div>
+  </div>
+</div>
+              <div class="blog-post">
+  <img src="./img/drink.png" class="blog-post__img "></img>
+  <div class="blog-post__content_top">
+    <h2 class="blog-post__title ">Сегодня ходили в клуб заря</h2>
+    <p class="blog-post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio quasi
+      culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit
+      tempore ducimus omnis deserunt adipisci inventore dicta consectetur...</p>
+    <div class="blog-post__content_bottom">
+      <div class="blog-post__button"> <a class="blog-post__link" href="news.html">перейти к
+          новости</a></div>
+      <div class="blog-post__date"> <span class="date">26.06.2019</span>
+</div>
+    </div>
+  </div>
+</div>
+              <div class="blog-post">
+  <img src="./img/drink.png" class="blog-post__img "></img>
+  <div class="blog-post__content_top">
+    <h2 class="blog-post__title ">Сегодня ходили в клуб заря</h2>
+    <p class="blog-post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio quasi
+      culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit
+      tempore ducimus omnis deserunt adipisci inventore dicta consectetur...</p>
+    <div class="blog-post__content_bottom">
+      <div class="blog-post__button"> <a class="blog-post__link" href="news.html">перейти к
+          новости</a></div>
+      <div class="blog-post__date"> <span class="date">26.06.2019</span>
+</div>
+    </div>
+  </div>
+</div>
             </div>
             <div class="blog__btn blog__btn_all_news text_center">
               <a class="blog__link blog__link_all_news" href="blog.html">посмотреть все новости
@@ -112,75 +111,75 @@
   </main>
 
   <section class="contacts">
-    <div class="container">
-      <div class="contacts__block">
-        <h1 class="headline contacts__title_main text_center">контакты</h1>
-        <div class="contacts__container">
+  <div class="container">
+    <article class="contacts__block">
+      <h1 class="headline contacts__title_main text_center">контакты</h1>
+      <div class="contacts__container">
 
-          <a class="contacts__link" href="https://vk.com/biryukov_vlad">
-            <div class="contacts__box contacts__box_vk">
-              <div class="contacts__box_inner_wrap">
-                <div class="contacts__box_inner">
-                  <div class="contacts__icon contacts__icon_vk" alt=""></div>
-                  <h3 class="contacts__subtitle">перейти к новости</h3>
-                </div>
+        <a class="contacts__link" href="https://vk.com/biryukov_vlad">
+          <div class="contacts__box contacts__box_vk">
+            <div class="contacts__box_inner_wrap">
+              <div class="contacts__box_inner">
+                <div class="contacts__icon contacts__icon_vk" alt=""></div>
+                <h3 class="contacts__subtitle">перейти vk</h3>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a class="contacts__link" href="https://www.instagram.com/?hl=ru">
-            <div class="contacts__box contacts__box_instagram">
-              <div class="contacts__box_inner_wrap">
-                <div class="contacts__box_inner">
-                  <div class="contacts__icon contacts__icon_instagram"></div>
-                  <h3 class="contacts__subtitle">instagram</h3>
-                </div>
+        <a class="contacts__link" href="https://www.instagram.com/?hl=ru">
+          <div class="contacts__box contacts__box_instagram">
+            <div class="contacts__box_inner_wrap">
+              <div class="contacts__box_inner">
+                <div class="contacts__icon contacts__icon_instagram"></div>
+                <h3 class="contacts__subtitle">instagram</h3>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a class="contacts__link" href="tel:+79297022717">
-            <div class="contacts__box contacts__box_phone">
-              <div class="contacts__box_inner_wrap">
-                <div class="contacts__box_inner">
-                  <div class="contacts__icon contacts__icon_phone"></div>
-                  <h3 class="contacts__subtitle">phone</h3>
-                </div>
+        <a class="contacts__link" href="tel:+79297022717">
+          <div class="contacts__box contacts__box_phone">
+            <div class="contacts__box_inner_wrap">
+              <div class="contacts__box_inner">
+                <div class="contacts__icon contacts__icon_phone"></div>
+                <h3 class="contacts__subtitle">phone</h3>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a class="contacts__link" href="#">
-            <div class="contacts__box contacts__box_message">
-              <div class="contacts__box_inner_wrap">
-                <div class="contacts__box_inner">
-                  <div class="contacts__icon contacts__icon_message"></div>
-                  <h3 class="contacts__subtitle">message</h3>
-                </div>
+        <a class="contacts__link" href="#">
+          <div class="contacts__box contacts__box_message">
+            <div class="contacts__box_inner_wrap">
+              <div class="contacts__box_inner">
+                <div class="contacts__icon contacts__icon_message"></div>
+                <h3 class="contacts__subtitle">message</h3>
               </div>
             </div>
-          </a>
+          </div>
+        </a>
 
-        </div>
       </div>
-    </div>
-  </section>
-  <!-- сонтакты -->
+    </article>
+  </div>
+</section>
+ 
   <footer class="footer">
-    <div class="container">
-      <div class="block footer__block">
-        <nav class="header__navigation">
-          <a class="header__link" href="index.html">Главная</a>
-          <a class="header__link" href="about_me.html">Мой блог</a>
-          <a class="header__link" href="#">Подробнее обо мне</a>
-        </nav>
-        <p class="footer__text">© 2019, my-site.ru</p>
-      </div>
+  <div class="container">
+    <div class="block footer__block">
+      <nav class="navigation">
+  <a class="navigation__link" href="index.html">Главная</a>
+  <a class="navigation__link" href="#">Мой блог</a>
+  <a class="navigation__link" href="about-me.html">Подробнее обо мне</a>
+</nav>
+      <p class="footer__text">© 2019, my-site.ru</p>
     </div>
-  </footer>
-  <!-- подвал -->
-  <div class="phone_fixed"><img class="phone_icon_img" src="img/phone-icon.png"> </div>
-  <!-- телефон fixes -->
+  </div>
+</footer>
+ 
+  <div class="phone-fixed"><img class="phone_img_icon" src="img/phone-icon.png"> </div>
+ 
 </body>
 <script src="script.js"></script>
 
