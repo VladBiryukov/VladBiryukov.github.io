@@ -5,7 +5,8 @@
   <link href="main.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon_google.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
   <title>Bryukov Vlad</title>
 </head>
 
@@ -13,12 +14,17 @@
   <header class="header">
   <div class="container">
     <div class="header__block">
-     <a href="#"> <div class="header__logo"></div> 
+     <a href="#"> <div class="header__logo"></div></a>
       <nav class="navigation">
   <a class="navigation__link" href="index.html">Главная</a>
   <a class="navigation__link" href="blog.html">Мой блог</a>
   <a class="navigation__link" href="about-me.html">Подробнее обо мне</a>
 </nav>  
+      <div class="hamburger">
+    <div class="hamburger__line"></div>
+    <div class="hamburger__line"></div>
+    <div class="hamburger__line"></div>
+  </div>  
     </div> 
   </div>
 </header>
@@ -27,7 +33,7 @@
       <article class="info-block__block">
         <h1 class="info-block__title">обо мне</h1>
         <div class="info-block__content">
-          <img class="info-block__img_avatar" src="./img/avatar.jpg" alt="avatar"></img>
+          <img class="info-block__avatar" src="./img/avatar.jpg" alt="avatar"></img>
           <div class="info-block__article">
             <p class="info-block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio
               quasi culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit tempore ducimus
@@ -44,15 +50,15 @@
       </article>
     </div>
   </section>
-  
+
   <main>
     <div class="blog-news">
       <div class="container">
         <div class="blog-news__block">
           <h1 class="blog-news__title text_center">мой блог</h1>
           <div class="blog-news__content">
-            <div class="blog-news__container_post">
-              <article class="card-blog">
+            <div class="blog-news__post">
+               <article class="card-blog">
   <img src="./img/drink.png" class="card-blog__img "></img>
   <div class="card-blog__arlicle">
     <h2 class="card-blog__title ">Сегодня ходил в клуб заря</h2>
@@ -66,7 +72,7 @@
     </div>
   </div>
 </article>
-              <article class="card-blog">
+               <article class="card-blog">
   <img src="./img/drink.png" class="card-blog__img "></img>
   <div class="card-blog__arlicle">
     <h2 class="card-blog__title ">Сегодня ходил в клуб заря</h2>
@@ -80,7 +86,7 @@
     </div>
   </div>
 </article>
-              <article class="card-blog">
+               <article class="card-blog">
   <img src="./img/drink.png" class="card-blog__img "></img>
   <div class="card-blog__arlicle">
     <h2 class="card-blog__title ">Сегодня ходил в клуб заря</h2>
@@ -107,7 +113,7 @@
   <section class="contacts">
   <div class="container">
     <article class="contacts__block">
-      <h1 class="headline contacts__title_main text_center">контакты</h1>
+      <h1 class="headline contacts__title text_center">контакты</h1>
       <div class="contacts__container">     
                
         <a class="contacts__link" href="https://vk.com/biryukov_vlad">
