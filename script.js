@@ -1,1 +1,1 @@
-console.log("Hello world");
+var e=document.getElementsByClassName("biography-dr-Osvaldo__text_mobile")[0],l=document.getElementsByClassName("biography-dr-Osvaldo__button-mobile")[0],t=document.getElementsByClassName("biography-dr-Osvaldo__text_desktop")[0];l.onclick=function(){e.style.display="none",t.style.display="inline-block",l.style.display="none"};
