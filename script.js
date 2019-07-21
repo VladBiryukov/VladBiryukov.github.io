@@ -9,7 +9,14 @@ var textButton = [
    "hiden",
    "View More"
 ] 
- 
+ // слайдер
+var swiper = new Swiper('.swiper-container', {
+   pagination: {
+     el: '.swiper-pagination',
+   },
+ });
+
+ //текст с биографией 
 button_mobile.onclick = function biography() {
    if (text_mobile.innerHTML.length <= 120) {
       function sizeText() {
