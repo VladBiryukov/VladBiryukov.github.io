@@ -12,11 +12,24 @@ var textBiography = [
       "View More"
    ];
 // слайдер
-var swiper = new Swiper('.swiper-container', {
+/* var swiper = new Swiper('.swiper-container', {
    pagination: {
       el: '.swiper-pagination',
    },
-});
+}); */
+var swiper = new Swiper('.swiper-container', {
+   slidesPerView: 1,
+   spaceBetween: 30,
+   loop: true,
+   pagination: {
+     el: '.swiper-pagination',
+     clickable: true,
+   },
+   navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+   },
+ });
 
 //текст с биографией 
 button_mobile.onclick = function biography() {
